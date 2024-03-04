@@ -22,7 +22,7 @@ while (isNaN(age=parseFloat(prompt("Inserisci la tua età")))); //Numberdasd
 // console.log("Distanza Percorsa " + distance)
 // console.log("Età Passeggero " + age)
 
-const price = 0.21; //Number
+let price = 0.21; //Number
 let totalPrice = price * distance; //Number
 
 // console.log(totalPrice + "€"); //Number + String
@@ -30,12 +30,14 @@ let totalPrice = price * distance; //Number
 
 if (age < 18){
 
-    totalPrice = price * distance * 0.8; //Number
+    let discount = totalPrice * 0.2; //Number
+    totalPrice = totalPrice - discount; //Number
 
 } else if (age > 65){
 
-    totalPrice = price * distance * 0.6; //Number
+    let discount = totalPrice * 0.4 //Number
+    totalPrice = totalPrice - discount; //Number
 
 } 
 
-console.log(totalPrice.toFixed(2)) //String
+console.log(totalPrice.toFixed(2) + " €") //String
