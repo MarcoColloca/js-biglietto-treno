@@ -1,0 +1,22 @@
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+body{
+    background-color: rgb(235, 235, 235);
+}
+
+body > *{
+    margin-bottom: 40px;
+}
+
+p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+h1{
+    color: rgb(97, 0, 0);
+}
