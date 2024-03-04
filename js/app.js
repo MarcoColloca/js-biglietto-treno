@@ -19,16 +19,16 @@ const totalPrice = price * distance; //Number
 if (age < 18){
 
     const totalPrice = price * distance * 0.8;
-    console.log(totalPrice + " €"); //Number + String
+    console.log(totalPrice.toFixed(2) + " €"); //Number + String
 
 } else if (age > 65){
 
     const totalPrice = price * distance * 0.6;
-    console.log(totalPrice + " €"); //Number + String
+    console.log(totalPrice.toFixed(2) + " €"); //Number + String
 
 } else{
 
     const totalPrice = price * distance;
-    console.log(totalPrice + " €"); //Number + String
+    console.log(totalPrice.toFixed(2) + " €"); //Number + String
 
 }
