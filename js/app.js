@@ -14,10 +14,10 @@ console.log("JS Trial")
 
 
 let distance; 
-while (isNaN(distance=parseFloat(prompt("Inserisci i km che vuoi percorrere (solo il numero)")))); //Number
+while (isNaN(distance=parseFloat(prompt("Inserisci i km che vuoi percorrere")))); //Number
 
-let age
-while (isNaN(age=parseFloat(prompt("Inserisci i km che vuoi percorrere (solo il numero)")))); //Numberdasd
+let age;
+while (isNaN(age=parseFloat(prompt("Inserisci la tua età")))); //Numberdasd
 
 // console.log("Distanza Percorsa " + distance)
 // console.log("Età Passeggero " + age)
