@@ -4,8 +4,8 @@ console.log("JS Trial")
 
 
 
-const distance = parseFloat(prompt("Inserisci i km che vuoi percorrere")); //Number
-const age = parseFloat(prompt("Inserisci la tua età")); //Number
+const distance = parseFloat(prompt("Inserisci i km che vuoi percorrere (solo il numero)")); //Number
+const age = parseFloat(prompt("Inserisci la tua età (solo il numero)")); //Number
 
 console.log("Distanza Percorsa " + distance)
 console.log("Età Passeggero " + age)
