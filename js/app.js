@@ -13,11 +13,13 @@ console.log("JS Trial")
 /// Fare in modo che i prezzi stampati non superino le due cifre decimali. 
 
 
-let distance; 
-while (isNaN(distance=parseFloat(prompt("Inserisci i km che vuoi percorrere")))); //Number
+let distance;
+while(isNaN(distance)) {
+    distance = parseFloat(prompt("inserisci i km che devi percorrere")); //Number
+}
 
 let age;
-while (isNaN(age=parseFloat(prompt("Inserisci la tua età")))); //Numberdasd
+while (isNaN(age=parseFloat(prompt("Inserisci la tua età")))); //Number
 
 // console.log("Distanza Percorsa " + distance)
 // console.log("Età Passeggero " + age)
