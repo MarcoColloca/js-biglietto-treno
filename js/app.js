@@ -27,17 +27,17 @@ const totalPrice = price * distance; //Number
 
 if (age < 18){
 
-    const totalPrice = price * distance * 0.8;
-    console.log(totalPrice.toFixed(2) + " €"); //Number + String
+    const totalPrice = price * distance * 0.8; //Number
+    console.log(totalPrice.toFixed(2) + " €"); //String
 
 } else if (age > 65){
 
-    const totalPrice = price * distance * 0.6;
-    console.log(totalPrice.toFixed(2) + " €"); //Number + String
+    const totalPrice = price * distance * 0.6; //Number
+    console.log(totalPrice.toFixed(2) + " €"); //String
 
 } else{
 
-    const totalPrice = price * distance;
-    console.log(totalPrice.toFixed(2) + " €"); //Number + String
+    const totalPrice = price * distance;        //Number
+    console.log(totalPrice.toFixed(2) + " €"); //String
 
 }
