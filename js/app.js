@@ -19,15 +19,12 @@ while(isNaN(distance)) {
 }
 
 let age;
-while (isNaN(age=parseFloat(prompt("Inserisci la tua età")))); //Number
+while (isNaN(age=parseInt(prompt("Inserisci la tua età")))); //Number
 
-// console.log("Distanza Percorsa " + distance)
-// console.log("Età Passeggero " + age)
 
 let price = 0.21; //Number
 let totalPrice = price * distance; //Number
 
-// console.log(totalPrice + "€"); //Number + String
 
 
 if (age < 18){
